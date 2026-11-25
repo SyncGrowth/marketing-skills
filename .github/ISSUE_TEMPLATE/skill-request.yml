@@ -1,0 +1,23 @@
+name: Suggest a skill
+description: Propose a new marketing skill.
+labels: ["enhancement"]
+body:
+  - type: input
+    id: job
+    attributes:
+      label: The job the skill would do
+      description: One sentence in the user's words, for example "plan a webinar series".
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why existing skills do not cover it
+      description: Name the closest skills and what is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources you would draw on
+      description: Public documentation, your own experience, MIT-licensed work. Please do not propose copying books or paywalled material.

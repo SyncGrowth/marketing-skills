@@ -1,0 +1,17 @@
+name: License or attribution concern
+description: Something here is missing a credit, or you own material that should not be here.
+labels: ["legal"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or skill
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is the concern
+      description: Link the original source and its license where you can.
+    validations:
+      required: true

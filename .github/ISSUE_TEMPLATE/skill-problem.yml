@@ -1,0 +1,29 @@
+name: Skill gives wrong or outdated advice
+description: A skill produced advice that is incorrect, unclear, unsafe, or out of date.
+labels: ["bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: Folder name under skills/, for example cro.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What you asked your agent
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What went wrong, and what a good answer would say
+      description: Link a source if the problem is a fact that changed.
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and model
+      description: For example Claude Code with Claude Sonnet, Codex, Cursor.

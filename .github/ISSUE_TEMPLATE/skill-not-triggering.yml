@@ -1,0 +1,31 @@
+name: Skill does not load, or loads when it should not
+description: The agent ignored a matching skill, or loaded the wrong one.
+labels: ["triggering"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Exact prompt
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened
+      options:
+        - The matching skill did not load
+        - A different skill loaded
+        - The skill loaded when it should not have
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent, version, and install method
+      description: For example Claude Code 2.1, npx skills add.

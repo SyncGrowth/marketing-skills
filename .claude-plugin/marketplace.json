@@ -1,0 +1,20 @@
+{
+  "name": "syncgrowth",
+  "owner": {
+    "name": "SyncGrowth",
+    "url": "https://syncgrowth.pl/en"
+  },
+  "metadata": {
+    "description": "Marketing skills for AI agents, maintained by SyncGrowth.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "syncgrowth-marketing-skills",
+      "source": "./",
+      "description": "54 marketing skills for AI agents: CRO, copywriting, SEO and AI search, paid ads, analytics, pricing, lifecycle email, outbound, research and social publishing.",
+      "category": "marketing",
+      "tags": ["marketing", "seo", "cro", "copywriting", "ads", "analytics"]
+    }
+  ]
+}
