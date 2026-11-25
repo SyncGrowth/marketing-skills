@@ -1,0 +1,318 @@
+{
+  "categories": [
+    "Strategy and planning",
+    "Copy, content and creative",
+    "SEO and discovery",
+    "Conversion and lifecycle",
+    "Paid media and measurement",
+    "Outbound and sales",
+    "Research and partnerships",
+    "Publishing"
+  ],
+  "upstream": {
+    "repo": "https://github.com/coreyhaines31/marketingskills",
+    "commit": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9",
+    "commit_date": "2026-11-23",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2025 Corey Haines"
+  },
+  "skills": {
+    "product-marketing": {
+      "category": "Strategy and planning",
+      "summary": "Write the product, ICP, positioning and voice doc every other skill reads first",
+      "origin": "upstream"
+    },
+    "marketing-plan": {
+      "category": "Strategy and planning",
+      "summary": "Full go-to-market plans: channels, budget, team and sequencing",
+      "origin": "upstream"
+    },
+    "marketing-ideas": {
+      "category": "Strategy and planning",
+      "summary": "139 growth tactics for software products, matched to your stage and budget",
+      "origin": "upstream"
+    },
+    "marketing-psychology": {
+      "category": "Strategy and planning",
+      "summary": "Buyer psychology and persuasion that stays honest",
+      "origin": "upstream"
+    },
+    "marketing-council": {
+      "category": "Strategy and planning",
+      "summary": "A simulated board of famous marketers that debate your decision",
+      "origin": "upstream"
+    },
+    "marketing-loops": {
+      "category": "Strategy and planning",
+      "summary": "Recurring agent jobs: weekly SEO and ads checks, churn watches, outbound triage",
+      "origin": "upstream"
+    },
+    "offers": {
+      "category": "Strategy and planning",
+      "summary": "Offer design: value stacking, bonuses, guarantees and honest urgency",
+      "origin": "upstream"
+    },
+    "pricing": {
+      "category": "Strategy and planning",
+      "summary": "Pricing and packaging: tiers, value metrics, price increases, freemium",
+      "origin": "upstream"
+    },
+    "launch": {
+      "category": "Strategy and planning",
+      "summary": "Product and feature launches: readiness, timing, Product Hunt, waitlists",
+      "origin": "upstream"
+    },
+    "copywriting": {
+      "category": "Copy, content and creative",
+      "summary": "Page copy and headlines, with the input diagnosed before anything is rewritten",
+      "origin": "upstream"
+    },
+    "copy-editing": {
+      "category": "Copy, content and creative",
+      "summary": "Tighten and proofread existing copy and strip AI tells",
+      "origin": "upstream"
+    },
+    "content-strategy": {
+      "category": "Copy, content and creative",
+      "summary": "Topic clusters, editorial calendars and what to write next",
+      "origin": "upstream"
+    },
+    "social": {
+      "category": "Copy, content and creative",
+      "summary": "Organic posts, threads, carousels and calendars for LinkedIn, X, Instagram and TikTok",
+      "origin": "upstream"
+    },
+    "image": {
+      "category": "Copy, content and creative",
+      "summary": "Marketing images: blog heroes, social graphics, mockups, OG images",
+      "origin": "upstream"
+    },
+    "video": {
+      "category": "Copy, content and creative",
+      "summary": "AI, programmatic and screen-recorded video, from product demos to repeatable templates",
+      "origin": "upstream"
+    },
+    "lead-magnets": {
+      "category": "Copy, content and creative",
+      "summary": "Lead magnets and gating: what to give away and what to ask for",
+      "origin": "upstream"
+    },
+    "free-tools": {
+      "category": "Copy, content and creative",
+      "summary": "Free calculators, graders and generators as marketing",
+      "origin": "upstream"
+    },
+    "public-relations": {
+      "category": "Copy, content and creative",
+      "summary": "Press, pitches, newsjacking and crisis communications",
+      "origin": "upstream"
+    },
+    "seo-audit": {
+      "category": "SEO and discovery",
+      "summary": "Technical and on-page SEO audits, traffic drops, indexing and ranking issues",
+      "origin": "upstream"
+    },
+    "ai-seo": {
+      "category": "SEO and discovery",
+      "summary": "Get cited and recommended in ChatGPT, Perplexity and AI Overviews",
+      "origin": "upstream"
+    },
+    "schema": {
+      "category": "SEO and discovery",
+      "summary": "JSON-LD schema markup and rich result eligibility",
+      "origin": "upstream"
+    },
+    "programmatic-seo": {
+      "category": "SEO and discovery",
+      "summary": "SEO pages at scale from templates and data, without thin content",
+      "origin": "upstream"
+    },
+    "site-architecture": {
+      "category": "SEO and discovery",
+      "summary": "Page hierarchy, navigation, URLs, internal links and migrations",
+      "origin": "upstream"
+    },
+    "link-building": {
+      "category": "SEO and discovery",
+      "summary": "Backlinks, link gaps, unlinked mentions and safe link tactics",
+      "origin": "upstream"
+    },
+    "competitors": {
+      "category": "SEO and discovery",
+      "summary": "Comparison and alternative pages with fair, defensible claims",
+      "origin": "upstream"
+    },
+    "directory-submissions": {
+      "category": "SEO and discovery",
+      "summary": "Startup, SaaS, AI and MCP directory listings worth the effort",
+      "origin": "upstream"
+    },
+    "aso": {
+      "category": "SEO and discovery",
+      "summary": "App Store and Google Play listing audits and keyword work",
+      "origin": "upstream"
+    },
+    "cro": {
+      "category": "Conversion and lifecycle",
+      "summary": "Conversion fixes for landing pages, pricing pages and lead forms",
+      "origin": "upstream"
+    },
+    "ab-testing": {
+      "category": "Conversion and lifecycle",
+      "summary": "Plan and read A/B tests: sample size, duration, significance, stopping",
+      "origin": "upstream"
+    },
+    "signup": {
+      "category": "Conversion and lifecycle",
+      "summary": "Signup, registration and trial flows",
+      "origin": "upstream"
+    },
+    "onboarding": {
+      "category": "Conversion and lifecycle",
+      "summary": "First-run experience, activation and time to value",
+      "origin": "upstream"
+    },
+    "paywalls": {
+      "category": "Conversion and lifecycle",
+      "summary": "In-app paywalls, upgrade prompts and trial limits",
+      "origin": "upstream"
+    },
+    "popups": {
+      "category": "Conversion and lifecycle",
+      "summary": "Popups, slide-ins and banners that help instead of annoy",
+      "origin": "upstream"
+    },
+    "churn-prevention": {
+      "category": "Conversion and lifecycle",
+      "summary": "Cancellation flows, save offers and failed-payment recovery",
+      "origin": "upstream"
+    },
+    "emails": {
+      "category": "Conversion and lifecycle",
+      "summary": "Welcome, onboarding, nurture and win-back email sequences",
+      "origin": "upstream"
+    },
+    "sms": {
+      "category": "Conversion and lifecycle",
+      "summary": "SMS, MMS and WhatsApp marketing with compliance built in",
+      "origin": "upstream"
+    },
+    "ads": {
+      "category": "Paid media and measurement",
+      "summary": "Plan, run and fix paid ads on Google, Meta and LinkedIn",
+      "origin": "upstream"
+    },
+    "ad-creative": {
+      "category": "Paid media and measurement",
+      "summary": "Ad headlines, hooks, angles and creative testing across platforms",
+      "origin": "upstream"
+    },
+    "analytics": {
+      "category": "Paid media and measurement",
+      "summary": "Tracking plans, GA4, GTM, PostHog, Mixpanel and UTM hygiene",
+      "origin": "upstream"
+    },
+    "conversion-tracking": {
+      "category": "Paid media and measurement",
+      "summary": "Pixels, CAPI, Enhanced Conversions and offline imports that fire once",
+      "origin": "upstream"
+    },
+    "attribution": {
+      "category": "Paid media and measurement",
+      "summary": "Which marketing drives revenue: models, MMM and incrementality",
+      "origin": "upstream"
+    },
+    "cold-email": {
+      "category": "Outbound and sales",
+      "summary": "B2B cold outbound, follow-ups, deliverability and cadences",
+      "origin": "upstream"
+    },
+    "prospecting": {
+      "category": "Outbound and sales",
+      "summary": "Find and qualify prospects from buying signals and public data",
+      "origin": "upstream"
+    },
+    "revops": {
+      "category": "Outbound and sales",
+      "summary": "Lifecycle stages, MQL and SQL, scoring, routing and handoffs",
+      "origin": "upstream"
+    },
+    "sales-enablement": {
+      "category": "Outbound and sales",
+      "summary": "Decks, one-pagers, objection handling, battle cards and proposals",
+      "origin": "upstream"
+    },
+    "customer-research": {
+      "category": "Research and partnerships",
+      "summary": "Interviews, surveys, voice of customer, personas and JTBD",
+      "origin": "upstream"
+    },
+    "competitor-profiling": {
+      "category": "Research and partnerships",
+      "summary": "Dated competitor profiles that keep facts apart from guesses",
+      "origin": "upstream"
+    },
+    "reverse-engineer-marketing": {
+      "category": "Research and partnerships",
+      "summary": "Trace how another company grew, from public data and archives",
+      "origin": "upstream"
+    },
+    "referrals": {
+      "category": "Research and partnerships",
+      "summary": "Referral and affiliate programs, incentives and payouts",
+      "origin": "upstream"
+    },
+    "influencer-marketing": {
+      "category": "Research and partnerships",
+      "summary": "Creator partnerships: vetting, rates, briefs, rights and disclosure",
+      "origin": "upstream"
+    },
+    "co-marketing": {
+      "category": "Research and partnerships",
+      "summary": "Partner fit, joint campaigns and splitting the work",
+      "origin": "upstream"
+    },
+    "community-marketing": {
+      "category": "Research and partnerships",
+      "summary": "Build and grow online communities and advocates",
+      "origin": "upstream"
+    },
+    "events": {
+      "category": "Research and partnerships",
+      "summary": "Webinars, conferences, booths and event follow-up into pipeline",
+      "origin": "upstream"
+    },
+    "social-publishing": {
+      "category": "Publishing",
+      "summary": "Draft, preview, schedule and publish approved posts without double posts or surprises",
+      "origin": "original"
+    }
+  },
+  "credits": {
+    "ads": "claude-ads (MIT), Ivan Falco ads-skills (ideas), Adlume and ECHELONN guides (ideas), Dara Denney, Founding Marketing",
+    "ad-creative": "Dara Denney, Oren John, Shiv Sakhuja and Gooseworks, reelclaw-templates, Borja, Ivan Falco ads-skills (ideas)",
+    "ai-seo": "Profound skills (MIT), Lily Ray and other studies (data)",
+    "analytics": "Wispr Flow link-creator (MIT)",
+    "attribution": "Tessa Kriesel (approach)",
+    "co-marketing": "Founding Marketing",
+    "community-marketing": "Founding Marketing",
+    "conversion-tracking": "ConversionKit, Converly (MIT, code)",
+    "copy-editing": "Profound and Wispr Flow skills (MIT)",
+    "copywriting": "Profound and Wispr Flow skills (MIT), Founding Marketing",
+    "directory-submissions": "Illyism seo-skills (idea)",
+    "events": "Knowatoa (MIT), alirezarezvani/claude-skills (idea), Founding Marketing",
+    "influencer-marketing": "Wispr Flow (MIT), Julia Pintar (ideas), upstream contributors",
+    "marketing-ideas": "Founding Marketing",
+    "marketing-plan": "Founding Marketing, upstream contributors",
+    "paywalls": "Blake Anderson ai-app-playbook (MIT)",
+    "pricing": "Kyle Poyar (ideas)",
+    "product-marketing": "Wispr Flow brand-voice (MIT)",
+    "prospecting": "Kappaemme skills (MIT), ColdIQ, Elias Stravik (MIT)",
+    "public-relations": "Knowatoa (MIT), Founding Marketing, upstream contributors",
+    "referrals": "upstream contributors",
+    "revops": "Elias Stravik toolkit (MIT)",
+    "social": "ScrapeCreators (MIT)",
+    "video": "Harvey and Inbox Zero write-ups (ideas)",
+    "sms": "upstream contributors"
+  }
+}

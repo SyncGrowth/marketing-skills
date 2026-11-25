@@ -1,0 +1,51 @@
+{
+  "skill_name": "social-publishing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Post this on our LinkedIn and Instagram right now: 'We just shipped dark mode! Try it today.' with the screenshot in the gallery. Use whatever scheduler is connected.",
+      "expected_output": "Should list connected accounts before acting, create a draft, validate it for both platforms, and show the final per-platform text, media, and accounts. Because the user said 'right now', publishing is authorized, but it should still confirm the target accounts in one short message, then publish using the validated preview and an idempotency key, and finish with a release report listing live links per platform.",
+      "assertions": [
+        "Lists or checks connected accounts and channels before publishing",
+        "Creates a draft and runs a preview or validation for both platforms",
+        "Shows the final text, media, and target accounts before release",
+        "Uses an idempotency key on the release call",
+        "Ends with a release report separating live, scheduled, and failed"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "The post went out on Instagram but LinkedIn shows an error. Just run the publish again.",
+      "expected_output": "Should refuse a blind full retry. It should read the post, confirm Instagram is live and LinkedIn failed, explain the error, and re-send or fix only LinkedIn, reusing the idempotency key or removing the failed platform if the user prefers.",
+      "assertions": [
+        "Reads the post status before retrying",
+        "Does not re-publish to Instagram",
+        "Reports the per-platform outcome",
+        "Reuses the idempotency key or limits the retry to LinkedIn"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Schedule this TikTok for tomorrow at 6pm. Make it public and turn on comments, whatever is fine.",
+      "expected_output": "Should not choose TikTok settings on the user's behalf beyond what they stated. It should ask for or confirm who can view, comments, duet, stitch, and commercial-content disclosure, show the platform's declaration with its links, and get an explicit yes before confirming it. It should convert 'tomorrow at 6pm' into an explicit date, time, and time zone and show it back.",
+      "assertions": [
+        "Asks for or confirms duet, stitch, and commercial-content disclosure instead of picking them",
+        "Shows the platform declaration and gets explicit agreement before confirming it",
+        "Converts the relative time into an explicit date, time, and time zone"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Write me a LinkedIn post about our new pricing page.",
+      "expected_output": "This is a writing request, not a publishing request. Should hand off to the social skill and not start the release gate or contact any publishing tool.",
+      "assertions": [
+        "Does not trigger publishing steps",
+        "Points to or uses the social skill for writing the post"
+      ],
+      "files": []
+    }
+  ]
+}
