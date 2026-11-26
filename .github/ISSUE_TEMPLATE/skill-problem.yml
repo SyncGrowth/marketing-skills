@@ -6,7 +6,7 @@ body:
     id: skill
     attributes:
       label: Skill
-      description: Folder name under skills/, for example cro.
+      description: Folder name under skills/, for example kreacje.
     validations:
       required: true
   - type: textarea

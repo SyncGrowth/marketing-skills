@@ -4,18 +4,30 @@ All notable changes to this repository are listed here. The format follows [Keep
 
 ## [Unreleased]
 
-## [1.0.0] - not yet released
+## [2.0.0] - not yet released
+
+The repository now holds one skill, `kreacje`. Removing skills is a major version.
+
+### Removed
+
+- The 53 skills adapted from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, Copyright (c) 2025 Corey Haines) and the original `social-publishing` skill. Their last state is commit `8eb2834`.
+- `THIRD_PARTY_NOTICES.md`, the upstream pin in `skills.json`, the credits table, and the generated provenance table. No third-party material remains in the current files.
+- The Corey Haines copyright line from `LICENSE`, for the same reason. Earlier commits keep the notices that applied to them.
 
 ### Added
 
-- 53 marketing skills adapted from the MIT-licensed [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) at commit `8fd2fca` (2026-11-23), with their references, scripts, assets and evals.
-- `social-publishing`: an original release gate for putting approved social posts live, with an optional reference for the SyncBooster MCP server.
-- `skills.json` index, generated skill tables in the READMEs, and `docs/PROVENANCE.md`.
-- `scripts/validate_skills.py`, run by CI on every push and pull request.
-- Claude Code plugin and marketplace manifests.
-- English and Polish READMEs, LICENSE, THIRD_PARTY_NOTICES, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, issue forms, pull request template and social preview image.
+- `kreacje`: drafts a SyncBooster Kreacje reel from a one-sentence brief. Mirror of the SyncBooster backend `skills/kreacje/` at source commit `549d9e33`, contract 2, catalog 7.
+- `authoring` and mirror stamp in `skills.json`, `scripts/stamp_mirror.py` and a validator check that fails when a mirrored skill differs from its stamp.
+- `docs/PROVENANCE.md`: where each skill is maintained and what happened to the earlier content.
 
 ### Changed
 
-- Removed upstream sponsor placements, upstream maintainer-only product mentions, their disclosure markers, and instructions to repeat them. Related evals were reworded.
-- Relative links that pointed at upstream-only folders now use absolute links pinned to the upstream commit.
+- README and README.pl, CONTRIBUTING, AGENTS and the community files are rewritten around the one skill, with room for more.
+- `scripts/validate_skills.py` and `scripts/build_index.py` no longer know about upstream origins or per-skill versions. The plugin manifests list the skill by name instead of a skill count.
+- Social preview image shows the new scope.
+
+## [1.0.0] - never released
+
+Prepared in the repository history before the refocus. It was never tagged or published as a release.
+
+- 53 marketing skills adapted from upstream and `social-publishing`, with the index, validator, plugin manifests, community files and social preview.

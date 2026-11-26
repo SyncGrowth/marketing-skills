@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Regenerate the generated tables from skills.json and each skill's frontmatter.
+"""Regenerate the generated skill tables from skills.json.
 
 Blocks between `<!-- generated:NAME:start -->` and `<!-- generated:NAME:end -->`
-markers are rewritten in README.md, README.pl.md and docs/PROVENANCE.md.
+markers are rewritten in README.md and README.pl.md.
 
     python3 scripts/build_index.py          rewrite files
     python3 scripts/build_index.py --check  exit 1 if a file is out of date
@@ -14,16 +14,15 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = json.loads((ROOT / "skills.json").read_text(encoding="utf-8"))
 
 
-def frontmatter(name: str) -> dict:
-    text = (ROOT / "skills" / name / "SKILL.md").read_text(encoding="utf-8")
-    end = text.find("\n---", 4)
-    return yaml.safe_load(text[4:end])
+def source_cell(entry: dict) -> str:
+    if entry["authoring"] == "mirror":
+        mirror = entry["mirror"]
+        return f"Mirror of {mirror['of']}, catalog {mirror['catalog_version']}"
+    return "Written here"
 
 
 def table_skills() -> str:
@@ -32,41 +31,15 @@ def table_skills() -> str:
         members = [(n, e) for n, e in INDEX["skills"].items() if e["category"] == category]
         if not members:
             continue
-        lines += ["", f"### {category}", "", "| Skill | What it does | Version |", "|---|---|---|"]
+        lines += ["", f"### {category}", "", "| Skill | What it does | Source |", "|---|---|---|"]
         for name, entry in sorted(members):
-            version = frontmatter(name).get("metadata", {}).get("version", "")
-            marker = " (original)" if entry["origin"] == "original" else ""
-            lines.append(f"| [`{name}`](skills/{name}/SKILL.md){marker} | {entry['summary']} | {version} |")
+            lines.append(f"| [`{name}`](skills/{name}/SKILL.md) | {entry['summary']} | {source_cell(entry)} |")
     return "\n".join(lines).strip("\n")
 
 
-def table_provenance() -> str:
-    credits = INDEX.get("credits", {})
-    lines = ["| Skill | Version | Origin | License | Third-party credits kept in the skill |", "|---|---|---|---|---|"]
-    for name, entry in sorted(INDEX["skills"].items()):
-        version = frontmatter(name).get("metadata", {}).get("version", "")
-        if entry["origin"] == "original":
-            origin, lic = "Original, SyncGrowth", "MIT"
-        else:
-            origin, lic = f"Upstream {INDEX['upstream']['commit'][:7]}", "MIT (Corey Haines)"
-        lines.append(f"| `{name}` | {version} | {origin} | {lic} | {credits.get(name, 'none')} |")
-    return "\n".join(lines)
-
-
-def counts() -> str:
-    total = len(INDEX["skills"])
-    original = sum(1 for e in INDEX["skills"].values() if e["origin"] == "original")
-    return f"{total} skills ({total - original} adapted from the MIT-licensed upstream, {original} original)"
-
-
-def total() -> str:
-    return str(len(INDEX["skills"]))
-
-
-BLOCKS = {"skills": table_skills, "provenance": table_provenance, "counts": counts, "total": total}
-FILES = [ROOT / "README.md", ROOT / "README.pl.md", ROOT / "docs" / "PROVENANCE.md"]
+BLOCKS = {"skills": table_skills}
+FILES = [ROOT / "README.md", ROOT / "README.pl.md"]
 BLOCK_RE = re.compile(r"(<!-- generated:(\w+):start -->)(.*?)(<!-- generated:\2:end -->)", re.S)
-INLINE_BLOCKS = {"counts", "total"}
 
 
 def render(text: str) -> str:
@@ -74,10 +47,7 @@ def render(text: str) -> str:
         start, name, _, end = match.groups()
         if name not in BLOCKS:
             raise SystemExit(f"unknown generated block '{name}'")
-        body = BLOCKS[name]()
-        if name in INLINE_BLOCKS:
-            return f"{start}{body}{end}"
-        return f"{start}\n{body}\n{end}"
+        return f"{start}\n{BLOCKS[name]()}\n{end}"
 
     return BLOCK_RE.sub(repl, text)
 
