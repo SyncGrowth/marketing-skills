@@ -67,3 +67,5 @@ Most skills come from [coreyhaines31/marketingskills](https://github.com/coreyha
 ## Conduct and security
 
 Participation is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). Report security issues as described in [SECURITY.md](SECURITY.md), not in public issues.
+
+For anything else, write to kontakt@syncgrowth.pl.

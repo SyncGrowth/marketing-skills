@@ -62,4 +62,4 @@ Repozytorium prowadzi [SyncGrowth](https://syncgrowth.pl), firma, która projekt
 
 ## Licencja
 
-[MIT](LICENSE). Prawa autorskie (c) 2025 Corey Haines i (c) 2026 SyncGrowth. Noty stron trzecich: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+[MIT](LICENSE). Prawa autorskie (c) 2025 Corey Haines i (c) 2026 Daniel Siwek. Kontakt: kontakt@syncgrowth.pl. Noty stron trzecich: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

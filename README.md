@@ -214,4 +214,4 @@ This repository is maintained by [SyncGrowth](https://syncgrowth.pl/en), which d
 
 ## License
 
-[MIT](LICENSE). Copyright (c) 2025 Corey Haines and (c) 2026 SyncGrowth. Third-party notices: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+[MIT](LICENSE). Copyright (c) 2025 Corey Haines and (c) 2026 Daniel Siwek. Contact: kontakt@syncgrowth.pl. Third-party notices: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
