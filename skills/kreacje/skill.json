@@ -1,0 +1,17 @@
+{
+  "name": "kreacje",
+  "contractVersion": "2",
+  "catalogVersion": "7",
+  "toolMappingVersion": 1,
+  "tools": [
+    "getBriefContext",
+    "searchPresets",
+    "listSceneTypes",
+    "createDraft",
+    "applyOperations",
+    "getDraft",
+    "proposeImage",
+    "readSkillReference",
+    "finish"
+  ]
+}

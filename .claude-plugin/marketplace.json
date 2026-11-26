@@ -7,15 +7,15 @@
   },
   "metadata": {
     "description": "Marketing skills for AI agents, maintained by SyncGrowth.",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "syncgrowth-marketing-skills",
       "source": "./",
-      "description": "54 marketing skills for AI agents: CRO, copywriting, SEO and AI search, paid ads, analytics, pricing, lifecycle email, outbound, research and social publishing.",
+      "description": "Marketing skills for AI agents, maintained by SyncGrowth. First skill: kreacje, which drafts SyncBooster Kreacje reels from a one-sentence brief.",
       "category": "marketing",
-      "tags": ["marketing", "seo", "cro", "copywriting", "ads", "analytics"]
+      "tags": ["marketing", "video", "reels", "syncbooster"]
     }
   ]
 }
