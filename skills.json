@@ -194,7 +194,7 @@
     },
     "sms": {
       "category": "Conversion and lifecycle",
-      "summary": "SMS, MMS and WhatsApp marketing with compliance built in",
+      "summary": "SMS, MMS and WhatsApp marketing, with TCPA, GDPR and opt-in checklists",
       "origin": "upstream"
     },
     "ads": {

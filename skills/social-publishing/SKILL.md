@@ -21,7 +21,7 @@ Then establish, asking only for what is missing:
 1. **Which tool publishes?** A scheduler or publishing platform the user already has, reachable by MCP server, API, or CLI. If none is connected, say so and hand over copy-ready posts with a posting schedule instead of pretending to publish.
 2. **Which account, brand, and channels?** List what the tool exposes. Never guess an account when several are connected.
 3. **What is approved?** Exact copy, media, and timing the user has signed off. Anything you wrote that the user has not seen is a draft.
-4. **What may you do on your own?** Default: create drafts and previews freely, schedule or publish only after an explicit go-ahead for that specific post or batch.
+4. **What may you do on your own?** Default: create drafts and previews freely, unless the tool charges for drafts; then say so first. Schedule or publish only after an explicit go-ahead for that specific post or batch.
 
 ## The Release Gate
 
@@ -55,7 +55,7 @@ A previously validated preview can expire or be bound to a login. If time passes
 | Symptom | Likely cause | What to do |
 |---|---|---|
 | Preview rejects one platform | Text too long, media format, account disconnected | Fix the cause and re-run the preview, or drop that platform with the user's consent |
-| "Not found or no access" | Credential is limited to certain brands or channels | List what you can access and ask the user to widen it, do not try another route |
+| Permission or scope error (for example "not found" or "no access") | Credential is limited to certain brands or channels | List what you can access and ask the user to widen it, do not try another route |
 | Published on some platforms only | Per-platform error | Read the post, report per platform, re-send only the failed ones |
 | Scheduled time already passed | Wrong time zone or stale draft | Re-confirm the time with the user, then reschedule |
 | Media still processing | Video transcoding in the tool | Wait, poll the media status, never publish a post that references unfinished media |
@@ -77,7 +77,8 @@ Read engagement only from the tool's own metrics call or the platform, never est
 
 ## Tool Notes
 
-- Working with SyncBooster's MCP server: [references/syncbooster-mcp.md](references/syncbooster-mcp.md). SyncBooster is built by SyncGrowth, the maintainers of this repository.
+- Working with SyncBooster's MCP server: [references/syncbooster-mcp.md](references/syncbooster-mcp.md). SyncBooster is built by SyncGrowth, which also maintains the SyncGrowth/marketing-skills collection this skill comes from.
+- Other schedulers that expose drafting and scheduling over MCP or an API include Typefully, Buffer and Post Bridge (see **social**). Map them the same way.
 - Any other scheduler: map its endpoints to the five steps of the release gate. If it has no preview step, make the approval step stricter instead.
 
 ## Related Skills

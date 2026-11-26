@@ -9,7 +9,7 @@
 
 <!-- generated:counts:start -->54 skills (53 adapted from the MIT-licensed upstream, 1 original)<!-- generated:counts:end --> that teach Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, Amp, Oh My Pi and other agents to do marketing work properly: conversion optimization, copywriting, SEO and AI search visibility, paid ads, analytics, pricing, lifecycle email, cold outbound, research and publishing.
 
-Each skill is a plain folder with a `SKILL.md` in the open [Agent Skills](https://agentskills.io/specification) format. Your agent reads a short description for every skill, loads the full instructions only when your request matches, and pulls in deeper reference files on demand. No server, no account, no telemetry from us.
+Each skill is a plain folder with a `SKILL.md` in the open [Agent Skills](https://agentskills.io/specification) format. Your agent reads a short description for every skill, loads the full instructions only when your request matches, and pulls in deeper reference files on demand. No server and no account, and nothing here phones home.
 
 [Polska wersja](README.pl.md)
 
@@ -20,6 +20,8 @@ One command, any supported agent (needs Node.js 22.20 or newer):
 ```bash
 npx skills add SyncGrowth/marketing-skills
 ```
+
+The `skills` CLI is a Vercel project. It sends anonymous install telemetry to skills.sh (repository, skill names, agent, CLI version). Set `DISABLE_TELEMETRY=1` before the command to turn that off, or copy the folders by hand as shown below.
 
 Pick specific skills, a specific agent, or install for your whole user account:
 
@@ -135,7 +137,7 @@ Paths come from each vendor's documentation as of 2026-11-25. Skills live one le
 | [`paywalls`](skills/paywalls/SKILL.md) | In-app paywalls, upgrade prompts and trial limits | 2.1.5 |
 | [`popups`](skills/popups/SKILL.md) | Popups, slide-ins and banners that help instead of annoy | 2.0.4 |
 | [`signup`](skills/signup/SKILL.md) | Signup, registration and trial flows | 2.0.3 |
-| [`sms`](skills/sms/SKILL.md) | SMS, MMS and WhatsApp marketing with compliance built in | 1.1.4 |
+| [`sms`](skills/sms/SKILL.md) | SMS, MMS and WhatsApp marketing, with TCPA, GDPR and opt-in checklists | 1.1.4 |
 
 ### Paid media and measurement
 
@@ -185,13 +187,14 @@ This repository is a curated, validated distribution of the MIT-licensed [market
 - **A format gate.** CI validates every skill against the Agent Skills spec and rejects hidden characters, secret-shaped strings and private paths.
 - **An original skill.** `social-publishing`, a release gate for putting approved posts live.
 
-We are not affiliated with or endorsed by Corey Haines. The names of marketers that appear in `marketing-council` refer to their published work, and that skill produces labeled simulations, never statements from the real people.
+We are not affiliated with or endorsed by Corey Haines or by anyone named in `marketing-council`. Those names refer to their published work, and that skill produces labeled simulations, never statements from the real people.
 
 ## Trust and safety
 
-- Skills are text. Two skills include scripts or code snippets you may choose to run: `reverse-engineer-marketing` (a Node script that reads public sources) and `conversion-tracking` (GTM recipes and form-detection snippets). Read them before you run them, as you would any code.
+- Skills are text. Three skills ship code you may choose to run: `reverse-engineer-marketing` (a Node script for public sources, with an optional paid ScrapeCreators call if you set its API key), `conversion-tracking` (GTM recipes, form-detection snippets and two Python helpers) and `ad-creative` (a self-contained HTML review page). Read them before you run them, as you would any code.
+- Compliance notes in the skills (TCPA, GDPR, cancellation law and similar) are general guidance, not legal advice. Check them with counsel for your jurisdiction.
 - No skill instructs your agent to add footers, links, referral codes or calls to action to what it writes for you.
-- Where a skill names a tool, it names alternatives next to it.
+- Where a skill names a tool, it usually names alternatives next to it. Tell us where it does not.
 - Found something that looks wrong? See [SECURITY.md](SECURITY.md).
 
 ## Contributing
@@ -205,9 +208,9 @@ python3 scripts/validate_skills.py
 
 ## About SyncGrowth and SyncBooster
 
-This repository is maintained by [SyncGrowth](https://syncgrowth.pl/en), which designs and implements ways of working across marketing, processes, automation, software and AI. We built the skills into our own agent workflows and share them because marketing practice improves when it is open to inspection.
+This repository is maintained by [SyncGrowth](https://syncgrowth.pl/en), which designs and implements ways of working across marketing, processes, automation, software and AI. We use these skills in our own agent workflows and share this curated copy because marketing practice improves when it is open to inspection.
 
-[SyncBooster](https://syncbooster.pl/en/) is our social publishing platform for planning, scheduling and publishing posts to Facebook, Instagram, LinkedIn, Google Business Profile, X, YouTube and TikTok. It is the only product of ours that appears in this repository: `social-publishing` has an optional reference page for its MCP server, and says plainly that we build it. Every other skill is vendor-neutral.
+[SyncBooster](https://syncbooster.pl/en/) is our social publishing platform for planning, scheduling and publishing posts to Facebook, Instagram, LinkedIn, Google Business Profile, X, YouTube and TikTok (where available). It is the only product of ours that appears in this repository: `social-publishing` has an optional reference page for its MCP server, and says plainly that we build it. Every other skill is vendor-neutral.
 
 ## License
 

@@ -20,7 +20,7 @@ If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or 
 
 **The offer is the thing, not the page.** Better copy on a weak offer compounds slowly. A stronger offer with average copy converts immediately. Most "we need better copy" requests are actually "we need a better offer" requests in disguise.
 
-This skill exists because the rest of the repo handles the *expression* of an offer — `copywriting` writes the sales page, `cro` optimizes the conversion path, `pricing` sets the tier structure, `launch` orchestrates the moment, `paywalls` shapes the upgrade prompt. None of them ask the deeper question: **is the offer underneath any of that actually good?**
+This skill exists because the rest of these skills handle the *expression* of an offer — `copywriting` writes the sales page, `cro` optimizes the conversion path, `pricing` sets the tier structure, `launch` orchestrates the moment, `paywalls` shapes the upgrade prompt. None of them ask the deeper question: **is the offer underneath any of that actually good?**
 
 ### When this skill matters
 
@@ -125,7 +125,7 @@ Some offer patterns work but cost more than they're worth:
 - **Course-bro aesthetic on a serious product** — Gold logos, "secret method," fake urgency. Pattern-matches to scam. Wrong room.
 - **Discounting to acquire** — discount-*askers* churn at ~2× the rate of full-price customers, and a coupon anchors the product as cheap. Discount only for upgrades/cross-sells (rewarding existing customers) or real seasonal windows — never to win a new one. Raise value with an offer instead. See [saas-offers.md](references/saas-offers.md).
 
-The repo voice: opinionated, but honest. Building offers well doesn't mean building offers loud.
+The voice of these skills: opinionated, but honest. Building offers well doesn't mean building offers loud.
 
 ---
 

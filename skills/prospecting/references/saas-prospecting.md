@@ -56,7 +56,7 @@ Combine 2+ sources for cross-verification.
 
 - **Job boards** (LinkedIn Jobs, Indeed, AngelList): role openings as signals
 - **RB2B, Warmly, or Vector**: visitor identification (warm anonymous traffic)
-- **GitHub stars/forks of competitor or adjacent repos**: developer-level intent signal (see the [GitHub integration guide](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/github.md) and the `github-prospects.js` CLI in the upstream repo). Especially strong for dev-tool SaaS — a developer who starred `vercel/next.js` last week is in-market for adjacent Next.js infrastructure.
+- **GitHub stars/forks of competitor or adjacent repos**: developer-level intent signal (see the [GitHub integration guide](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/github.md) and the `github-prospects.js` CLI in the upstream repo). Especially strong for dev-tool SaaS — a developer who starred `vercel/next.js` last week is in-market for adjacent Next.js infrastructure.
 - **Recent blog posts / changelog**: product direction signals
 - **G2 reviews mentioning competitor switches**: explicit dissatisfaction signal
 
@@ -65,7 +65,7 @@ Combine 2+ sources for cross-verification.
 For dev-tool SaaS, GitHub is one of the highest-quality discovery channels:
 
 1. Identify 3–5 "anchor" repos: your direct competitors, your category leader, complementary tools your buyer uses
-2. Pull stargazers (or forks for stronger intent) via the upstream repo's CLI (`node tools/clis/github-prospects.js stargazers <owner/repo> --enrich --with-company --format csv`, see [tools/clis/github-prospects.js](https://github.com/coreyhaines31/marketingskills/blob/main/tools/clis/github-prospects.js)) or the GitHub API
+2. Pull stargazers (or forks for stronger intent) via the upstream repo's CLI (`node tools/clis/github-prospects.js stargazers <owner/repo> --enrich --with-company --format csv`, see [tools/clis/github-prospects.js](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/clis/github-prospects.js)) or the GitHub API
 3. Filter to users with `company` set — these are the easiest to enrich downstream
 4. Pair with Apollo/Clay/Hunter to lookup email by name + company
 5. Validate with a dedicated email verifier before adding to outreach list

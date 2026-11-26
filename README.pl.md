@@ -16,6 +16,8 @@ Jedna komenda, dowolny obsługiwany agent (wymaga Node.js 22.20 lub nowszego):
 npx skills add SyncGrowth/marketing-skills
 ```
 
+Narzędzie `skills` należy do Vercela i wysyła anonimową telemetrię instalacji do skills.sh. Ustaw `DISABLE_TELEMETRY=1` przed poleceniem, żeby ją wyłączyć, albo skopiuj foldery ręcznie.
+
 Wybrane umiejętności albo wybrany agent:
 
 ```bash
@@ -48,7 +50,7 @@ To wyselekcjonowana i sprawdzona dystrybucja projektu [marketingskills](https://
 - automatyczną kontrolę formatu i ukrytych treści w CI,
 - jedną własną umiejętność: `social-publishing`.
 
-Nie jesteśmy powiązani z Coreyem Hainesem ani przez niego rekomendowani.
+Nie jesteśmy powiązani z Coreyem Hainesem ani z osobami wymienionymi w `marketing-council` i nie jesteśmy przez nich rekomendowani. Uwagi o zgodności z przepisami (TCPA, RODO i podobne) to ogólne wskazówki, nie porada prawna.
 
 ## Bezpieczeństwo i wkład
 
@@ -56,7 +58,7 @@ Nie jesteśmy powiązani z Coreyem Hainesem ani przez niego rekomendowani.
 
 ## O SyncGrowth i SyncBooster
 
-Repozytorium prowadzi [SyncGrowth](https://syncgrowth.pl), firma, która projektuje i wdraża sposoby pracy w marketingu, procesach, automatyzacji, oprogramowaniu i AI. [SyncBooster](https://syncbooster.pl) to nasza platforma do planowania i publikowania postów w Facebooku, Instagramie, LinkedInie, Profilu Firmy w Google, X, YouTube i TikToku. Tylko ten produkt pojawia się w repozytorium: umiejętność `social-publishing` ma opcjonalną stronę o serwerze MCP SyncBoostera i wprost mówi, że to nasz produkt. Pozostałe umiejętności nie zależą od żadnego dostawcy.
+Repozytorium prowadzi [SyncGrowth](https://syncgrowth.pl), firma, która projektuje i wdraża sposoby pracy w marketingu, procesach, automatyzacji, oprogramowaniu i AI. [SyncBooster](https://syncbooster.pl) to nasza platforma do planowania i publikowania postów w Facebooku, Instagramie, LinkedInie, Profilu Firmy w Google, X, YouTube i TikToku (tam, gdzie jest dostępny). Tylko ten produkt pojawia się w repozytorium: umiejętność `social-publishing` ma opcjonalną stronę o serwerze MCP SyncBoostera i wprost mówi, że to nasz produkt. Pozostałe umiejętności nie zależą od żadnego dostawcy.
 
 ## Licencja
 

@@ -477,8 +477,6 @@ For tactical guidance on SaaS product pages, blog content, comparison/alternativ
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md).
-
 | Tool | Use For |
 |------|---------|
 | `semrush` | AI Overview tracking, keyword research, content gap analysis |

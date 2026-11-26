@@ -4,7 +4,7 @@ The reason to buy now, not later.
 
 This is the most misused offer lever in the industry. Done right, it's a meaningful conversion lift and a respect-the-buyer's-time gesture. Done wrong (fake countdown timers, lies about inventory), it converts once and torches trust permanently.
 
-The repo voice: **only ship real scarcity.** If the scarcity is fake, take it off the page.
+The voice of these skills: **only ship real scarcity.** If the scarcity is fake, take it off the page.
 
 ## Scarcity vs urgency
 

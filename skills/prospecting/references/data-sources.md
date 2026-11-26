@@ -36,7 +36,7 @@ Tool selection guide for prospecting across all three branches.
 - Email accuracy ~60–80% — always validate
 - Bulk export limits apply
 
-**Integration**: see [apollo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/apollo.md)
+**Integration**: see [apollo.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/apollo.md)
 
 ---
 
@@ -55,7 +55,7 @@ Tool selection guide for prospecting across all three branches.
 - Per-credit pricing can spike on large lists
 - Complexity overhead — easy to over-engineer workflows
 
-**Integration**: see [clay.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clay.md)
+**Integration**: see [clay.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/clay.md)
 
 ---
 
@@ -74,7 +74,7 @@ Tool selection guide for prospecting across all three branches.
 - Overkill for SMB prospecting
 - Locked into multi-year contracts typically
 
-**Integration**: see [zoominfo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/zoominfo.md)
+**Integration**: see [zoominfo.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/zoominfo.md)
 
 ---
 
@@ -86,7 +86,7 @@ Tool selection guide for prospecting across all three branches.
 - Coverage and false-positive rates vary by ICP; run the bake-off in [sourcing-and-enrichment.md](sourcing-and-enrichment.md) before committing
 - Verify results anyway; finding an address isn't the same as confirming it
 
-**Integration**: see [fullenrich.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/fullenrich.md) and [leadmagic.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/leadmagic.md)
+**Integration**: see [fullenrich.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/fullenrich.md) and [leadmagic.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/leadmagic.md)
 
 ---
 
@@ -94,7 +94,7 @@ Tool selection guide for prospecting across all three branches.
 
 Clearbit was absorbed into HubSpot (Breeze Intelligence). Its free tools ended in 2025, and new standalone API access is no longer generally available. Use HubSpot's enrichment if you're on HubSpot; otherwise use the providers above.
 
-**Integration**: see [clearbit.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clearbit.md)
+**Integration**: see [clearbit.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/clearbit.md)
 
 ---
 
@@ -116,7 +116,7 @@ Clearbit was absorbed into HubSpot (Breeze Intelligence). Its free tools ended i
 - Both are pattern-guessing tools — accuracy depends on the target company's email pattern being inferable
 - Always run results through a dedicated validator (NeverBounce, ZeroBounce, or similar) before outreach
 
-**Integrations**: see [hunter.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hunter.md), [snov.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/snov.md)
+**Integrations**: see [hunter.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/hunter.md), [snov.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/snov.md)
 
 ---
 
@@ -205,7 +205,7 @@ Cross-reference both for high-confidence tech stack signals.
 - Very-popular repos (100K+ stars) are mostly noise; smaller targeted repos (5K–25K) give better signal density
 - Most prospects are individuals, not company contacts directly — need to figure out their company from `company` field or LinkedIn
 
-**Integration**: see [github.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/github.md)
+**Integration**: see [github.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/github.md)
 
 ---
 
@@ -234,7 +234,7 @@ Both tools can technically point at any URL. The hard rule:
 
 Discovery happens on platforms (manual browser-assisted research). Extraction happens on individual public business sites.
 
-**Integrations**: see [firecrawl.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/firecrawl.md), [browserbase.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/browserbase.md)
+**Integrations**: see [firecrawl.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/firecrawl.md), [browserbase.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/browserbase.md)
 
 ---
 
@@ -251,7 +251,7 @@ Discovery happens on platforms (manual browser-assisted research). Extraction ha
 - Privacy/GDPR considerations — verify your privacy policy disclosures
 - Person-level identification raises higher concerns than company-level
 
-**Integration**: see [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/rb2b.md)
+**Integration**: see [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/rb2b.md)
 
 ---
 

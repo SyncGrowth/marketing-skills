@@ -441,4 +441,5 @@ Visual or structured representation of how content interconnects.
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **emails**: For email-based content
 - **social**: For social media content, content atomization, and repurposing execution
+- **social-publishing**: For scheduling or publishing finished posts through a connected tool, with a release gate
 - **launch**: For the ORB channel-type playbook and launch-day distribution

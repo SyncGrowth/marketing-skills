@@ -71,13 +71,13 @@ Use whichever of these the user already has. Pick one for the curve and keep it 
 
 | Source | Monthly history | Keywords by URL | Backlinks and anchors | Access |
 |---|---|---|---|---|
-| [DataForSEO](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/dataforseo.md) | Historical rank overview | Ranked keywords | Backlinks summary, anchors | Pay per call; CLI in the repo |
+| [DataForSEO](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/dataforseo.md) | Historical rank overview | Ranked keywords | Backlinks summary, anchors | Pay per call; CLI in the upstream marketingskills repo |
 | [Semrush](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/semrush.md) | Organic traffic history | Organic positions | Backlinks, anchors | Subscription; MCP |
 | [Ahrefs](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/ahrefs.md) | Organic traffic history | Organic keywords | Referring domains, anchors | Subscription; MCP |
 | [Similarweb](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/similarweb.md) | Visits and traffic sources by month | Top keywords | - | Subscription |
 | [RankParse](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/rankparse.md) | - | - | Backlinks, tech stack | Pay per call |
 
-For tech stack beyond the page source, [TheirStack](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/theirstack.md) infers tools from job posts and also covers the hiring check. For news, funding, and mentions, [Exa](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/exa.md) searches the web by meaning. Multi-provider data gateways (one key, many vendors, billed per call) are listed in the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/REGISTRY.md).
+For tech stack beyond the page source, [TheirStack](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/theirstack.md) infers tools from job posts and also covers the hiring check. For news, funding, and mentions, [Exa](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/exa.md) searches the web by meaning.
 
 ## AI Mentions and Citations
 
@@ -104,7 +104,7 @@ Use the prompt tracker the user has connected. It gives share of voice and citat
 
 - **ScrapeCreators** is one key with one response style across platforms, which makes per-channel pulls quick. Billed in credits.
 - **Apify** suits bulk pulls, scheduled runs, and platforms ScrapeCreators doesn't cover. Each actor has its own input and pricing; read its page first.
-- **LinkedIn:** read the company page, employee posts, and the LinkedIn Ad Library by hand. This repo doesn't scrape LinkedIn.
+- **LinkedIn:** read the company page, employee posts, and the LinkedIn Ad Library by hand. These skills don't scrape LinkedIn.
 - Media URLs expire. Download thumbnails and covers in the same run as the pull.
 - The YouTube Data API (free with a key) and Reddit's public JSON are fine fallbacks when no paid source is set up.
 

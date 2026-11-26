@@ -243,24 +243,24 @@ score,business,category,area,distance_km,website_status,website_url,social_urls,
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key prospecting tools:
+Key prospecting tools:
 
 | Tool | Fits | MCP | Guide |
 |------|----------|:---:|-------|
-| **Apollo** | B2B / SaaS firmographic + contact discovery | ✓ | [apollo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/apollo.md) |
-| **Clay** | Multi-source enrichment + waterfall | ✓ | [clay.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clay.md) |
-| **FullEnrich** | Waterfall email + phone enrichment | ✓ | [fullenrich.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/fullenrich.md) |
-| **LeadMagic** | Email, phone, and job-change enrichment | ✓ | [leadmagic.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/leadmagic.md) |
-| **TheirStack** | Hiring signals and tech stacks from job posts | ✓ | [theirstack.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/theirstack.md) |
-| **Apify** | Structured data from public directories (never LinkedIn) | ✓ | [apify.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/apify.md) |
-| **ZoomInfo** | Enterprise B2B contact + intent | ✓ | [zoominfo.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/zoominfo.md) |
-| **Hunter** | Email pattern + verification | ✓ | [hunter.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hunter.md) |
-| **Snov** | Email finder + verifier | - | [snov.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/snov.md) |
-| **Outreach** | Sales engagement (post-list) | ✓ | [outreach.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/outreach.md) |
-| **RB2B** | Visitor identification (warm intent) | - | [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/rb2b.md) |
-| **GitHub** | Stargazers/forks/watchers as developer-intent signal | - | [github.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/github.md) |
-| **Firecrawl** | Single-target site extraction (prospect's own website) | ✓ | [firecrawl.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/firecrawl.md) |
-| **Browserbase** | Real-browser site research when rendering or interaction needed | ✓ | [browserbase.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/browserbase.md) |
+| **Apollo** | B2B / SaaS firmographic + contact discovery | ✓ | [apollo.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/apollo.md) |
+| **Clay** | Multi-source enrichment + waterfall | ✓ | [clay.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/clay.md) |
+| **FullEnrich** | Waterfall email + phone enrichment | ✓ | [fullenrich.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/fullenrich.md) |
+| **LeadMagic** | Email, phone, and job-change enrichment | ✓ | [leadmagic.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/leadmagic.md) |
+| **TheirStack** | Hiring signals and tech stacks from job posts | ✓ | [theirstack.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/theirstack.md) |
+| **Apify** | Structured data from public directories (never LinkedIn) | ✓ | [apify.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/apify.md) |
+| **ZoomInfo** | Enterprise B2B contact + intent | ✓ | [zoominfo.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/zoominfo.md) |
+| **Hunter** | Email pattern + verification | ✓ | [hunter.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/hunter.md) |
+| **Snov** | Email finder + verifier | - | [snov.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/snov.md) |
+| **Outreach** | Sales engagement (post-list) | ✓ | [outreach.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/outreach.md) |
+| **RB2B** | Visitor identification (warm intent) | - | [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/rb2b.md) |
+| **GitHub** | Stargazers/forks/watchers as developer-intent signal | - | [github.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/github.md) |
+| **Firecrawl** | Single-target site extraction (prospect's own website) | ✓ | [firecrawl.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/firecrawl.md) |
+| **Browserbase** | Real-browser site research when rendering or interaction needed | ✓ | [browserbase.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/browserbase.md) |
 
 ---
 

@@ -501,7 +501,7 @@ Render the same content in each aspect ratio, with one composition (layout) per 
 - 9:16 for Stories/Reels
 - 16:9 for YouTube
 
-Each ratio needs its own layout: a Hyperframes file renders only at its own ratio, and a product photo framed for 9:16 crops in 16:9. Check the peak-zoom frame of every size for a cut-off product, logo, or text (see the [Hyperframes guide](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hyperframes.md#product-photos)).
+Each ratio needs its own layout: a Hyperframes file renders only at its own ratio, and a product photo framed for 9:16 crops in 16:9. Check the peak-zoom frame of every size for a cut-off product, logo, or text (see the [Hyperframes guide](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/hyperframes.md#product-photos)).
 
 ### Code-Based Workflow for Ad Creative
 

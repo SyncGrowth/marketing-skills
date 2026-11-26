@@ -241,7 +241,7 @@ Measure what the views produce: a tracked link in bio (UTM tags), App Store camp
 
 ### Post Once, Publish Everywhere
 
-Make each video once and send it to TikTok, Reels, Shorts, and the other short-form feeds. A scheduler that posts to several accounts and platforms through one API or MCP (Buffer, Post Bridge, and others in the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md)) keeps the routine to about an hour a day.
+Make each video once and send it to TikTok, Reels, Shorts, and the other short-form feeds. A scheduler that posts to several accounts and platforms through one API or MCP (Buffer, Post Bridge, and others) keeps the routine to about an hour a day.
 
 ### Batch Creation Workflow
 

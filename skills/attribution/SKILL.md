@@ -203,18 +203,18 @@ Deliver an **attribution readout**, not a data dump:
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key tools:
+Key tools:
 
 | Tool | Fits | MCP | Guide |
 |------|----------|:---:|-------|
-| **PostHog** | First-party attribution, identify/merge, funnels | ✓ | [posthog.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/posthog.md) |
-| **GA4** | Web analytics, model comparison, user-id stitching | ✓ | [ga4.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/ga4.md) |
-| **Dub** | Short-link + click attribution | - | [dub-co.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/dub-co.md) |
-| **Segment** | CDP — route identify/track to every destination | - | [segment.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/segment.md) |
-| **HubSpot** | CRM lead-source + self-reported fields | ✓ | [hubspot.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hubspot.md) |
-| **Salesforce** | CRM as revenue source of truth | ✓ | [salesforce.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/salesforce.md) |
-| **Supermetrics** | Pull platform numbers into one place to reconcile | ✓ | [supermetrics.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/supermetrics.md) |
-| **RB2B** | De-anonymize B2B website visitors | - | [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/rb2b.md) |
+| **PostHog** | First-party attribution, identify/merge, funnels | ✓ | [posthog.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/posthog.md) |
+| **GA4** | Web analytics, model comparison, user-id stitching | ✓ | [ga4.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/ga4.md) |
+| **Dub** | Short-link + click attribution | - | [dub-co.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/dub-co.md) |
+| **Segment** | CDP — route identify/track to every destination | - | [segment.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/segment.md) |
+| **HubSpot** | CRM lead-source + self-reported fields | ✓ | [hubspot.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/hubspot.md) |
+| **Salesforce** | CRM as revenue source of truth | ✓ | [salesforce.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/salesforce.md) |
+| **Supermetrics** | Pull platform numbers into one place to reconcile | ✓ | [supermetrics.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/supermetrics.md) |
+| **RB2B** | De-anonymize B2B website visitors | - | [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/rb2b.md) |
 
 ---
 

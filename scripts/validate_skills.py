@@ -68,6 +68,8 @@ FORBIDDEN_PATTERNS = [
     (re.compile(r"Verified Partner|verified partner"), "sponsor disclosure marker"),
     (re.compile(re.escape(DIAMOND)), "partner diamond marker"),
     (re.compile(r"\b(?:SyncCrew|synccrew|SyncHQ)\b"), "internal product name"),
+    (re.compile(r"coreyhaines31/marketingskills/(?:blob|tree)/main/|raw\.githubusercontent\.com/coreyhaines31/marketingskills/main/"), "unpinned upstream link (pin to the commit in skills.json)"),
+    (re.compile(r"tools/(?:REGISTRY|PARTNERS)\.md"), "link to upstream sponsor registry"),
 ]
 
 # Files where a forbidden pattern is expected (this script and the docs that explain the rules).

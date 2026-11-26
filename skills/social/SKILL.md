@@ -329,22 +329,20 @@ Extract "content atoms" — self-contained moments from any long-form content th
 
 ### Publishing From Your Agent
 
-Everything above produces drafts and a calendar — actually getting posts onto
-accounts still needs a scheduling tool. If the user has one with an MCP server
-or API, you can execute the plan directly instead of handing them copy-paste
-work:
+Everything above produces drafts and a calendar. Getting posts onto accounts
+still needs a scheduling tool. Many of them (Typefully, Buffer, Post Bridge,
+Marky, and others) expose drafting and scheduling through an MCP server or an
+API, so ask the user what they schedule with.
 
-1. **Check what's connected.** Ask the user what they schedule with. Many
-   scheduling tools (Typefully, Buffer, Post Bridge, Marky, and others)
-   expose drafting and scheduling through an MCP server or an API, so you can
-   create and schedule posts directly. Check the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md) for guides.
-2. **Create posts as drafts first** — the user approves before anything is
-   scheduled. Never auto-publish without an explicit go-ahead.
-3. **Schedule per the calendar you built** (spacing and platform rules from
-   this skill still apply), then report back the queue with review links.
-4. **Close the loop.** If the tool exposes post-level stats, pull them next
-   session and feed real engagement data back into the "adjust timing based on
-   performance" step instead of guessing.
+When the user wants posts actually scheduled or published, follow the
+**social-publishing** skill and its release gate: preview, explicit
+confirmation, an idempotency key, and a read-back of what was saved. Do not
+schedule or publish through any other route.
+
+Advice that stays here: spacing and platform rules from this skill still apply
+to the calendar you hand over. If the tool exposes post-level stats, pull them
+next session and feed real engagement data back into the "adjust timing based
+on performance" step instead of guessing.
 
 ---
 
@@ -462,6 +460,7 @@ Tools: CapCut (free), Descript, Captions.ai, Premiere Pro
 - **reverse-engineer-marketing**: For reading a company's content patterns, house style, and formulas across every channel
 - **emails**: For nurturing social audience via email
 - **marketing-psychology**: For understanding what drives engagement
+- **social-publishing**: For scheduling or publishing the finished posts through a connected tool, with a release gate
 
 **If the [designskills](https://github.com/zstvns/design-skills) library is installed**, hand off the visual work:
 

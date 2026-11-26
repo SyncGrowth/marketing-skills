@@ -348,17 +348,17 @@ You can't tag links that ChatGPT, Claude, Perplexity, Gemini, or Copilot put in 
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). Key analytics tools:
+Key analytics tools:
 
 | Tool | Fits | MCP | Guide |
 |------|----------|:---:|-------|
-| **GA4** | Web analytics, Google ecosystem | ✓ | [ga4.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/ga4.md) |
-| **Mixpanel** | Product analytics, event tracking | ✓ | [mixpanel.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/mixpanel.md) |
-| **Amplitude** | Product analytics, cohort analysis | ✓ | [amplitude.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/amplitude.md) |
-| **PostHog** | Open-source analytics, session replay | ✓ | [posthog.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/posthog.md) |
-| **Segment** | Customer data platform, routing | - | [segment.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/segment.md) |
+| **GA4** | Web analytics, Google ecosystem | ✓ | [ga4.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/ga4.md) |
+| **Mixpanel** | Product analytics, event tracking | ✓ | [mixpanel.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/mixpanel.md) |
+| **Amplitude** | Product analytics, cohort analysis | ✓ | [amplitude.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/amplitude.md) |
+| **PostHog** | Open-source analytics, session replay | ✓ | [posthog.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/posthog.md) |
+| **Segment** | Customer data platform, routing | - | [segment.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/segment.md) |
 
-To see GA4, Search Console, and ad platform numbers in one place, the options include pipelines into sheets and BI tools ([Supermetrics](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/supermetrics.md), [Coupler](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/coupler.md)), and a dashboard tool such as Looker Studio.
+To see GA4, Search Console, and ad platform numbers in one place, the options include pipelines into sheets and BI tools ([Supermetrics](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/supermetrics.md), [Coupler](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/coupler.md)), and a dashboard tool such as Looker Studio.
 
 ---
 

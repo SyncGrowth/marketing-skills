@@ -88,7 +88,7 @@ Return a concise program or response packet with:
 
 ## Tools and Handoffs
 
-For configured API access, consult [Trustpilot](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/trustpilot.md), [G2](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/g2.md), and the [tool registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md#reviews). These guides describe different capabilities; do not infer that a read API can create invitations or public replies. Dashboard workflows and a simple private spreadsheet can be sufficient. Do not require a paid tool for a single response.
+For configured API access, consult [Trustpilot](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/trustpilot.md) and [G2](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/g2.md). These guides describe different capabilities; do not infer that a read API can create invitations or public replies. Dashboard workflows and a simple private spreadsheet can be sufficient. Do not require a paid tool for a single response.
 
 - **customer-research** — mine themes and language from existing reviews; do not turn research selection into invitation gating.
 - **cro / copywriting** — present permissioned proof on conversion pages.

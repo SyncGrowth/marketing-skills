@@ -19,7 +19,7 @@ Start with leaders whose work shapes growth: founders, CEO, heads of growth, mar
 - X and Bluesky bios that name the company, and who the founders' accounts follow and reply to most
 - Podcast guest pages and conference speaker lists
 - Funding announcements and press releases, which name leaders and early hires
-- LinkedIn company pages, read by hand (this repo doesn't scrape LinkedIn)
+- LinkedIn company pages, read by hand (these skills don't scrape LinkedIn)
 
 Keep it to people speaking publicly in a work capacity. Don't profile private lives, and don't contact anyone.
 

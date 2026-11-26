@@ -282,7 +282,7 @@ Jokes and memes tell you the culture, not the need; note them and move on. Then 
 
 Two cautions. The most-liked comments are the most agreeable or the funniest, not the most representative, so read past the top. And commenters are an audience, not a customer list: use what they say in aggregate, and don't collect who said it.
 
-For pulling comments at volume, see the [ScrapeCreators guide](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/scrapecreators.md).
+For pulling comments at volume, see the [ScrapeCreators guide](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/scrapecreators.md).
 
 ### YouTube Comments (Consumer)
 
@@ -354,7 +354,7 @@ SparkToro data is aggregated and anonymized — it shows patterns, not individua
 - Skews English-language, US-centric
 - Shows what audiences do, not why — pair with qualitative sources
 
-See [tools/integrations/sparktoro.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/sparktoro.md) for full tool details and pricing.
+See [tools/integrations/sparktoro.md](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/sparktoro.md) for full tool details and pricing.
 
 ---
 

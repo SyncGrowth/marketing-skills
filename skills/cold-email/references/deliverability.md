@@ -109,5 +109,3 @@ Decide these before launch and enforce them automatically where your tool allows
 | Reputation | Google Postmaster Tools, Microsoft SNDS |
 | DMARC monitoring | EasyDMARC, dmarcian, Valimail |
 | List verification | Bouncer, MillionVerifier, NeverBounce, ZeroBounce, and others |
-
-Setup guides: [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md).

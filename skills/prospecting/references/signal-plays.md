@@ -195,25 +195,25 @@ Each tool is listed with what it is and when to reach for it. Name the ones that
 
 | Tool | What it is | Reach for it when |
 |------|------------|-------------------|
-| [TheirStack](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/theirstack.md) | Job-posting and tech-stack database, with an MCP server | Finding companies hiring for the function you serve |
+| [TheirStack](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/theirstack.md) | Job-posting and tech-stack database, with an MCP server | Finding companies hiring for the function you serve |
 | [PredictLeads](https://predictleads.com) | Company-event data API: job openings, news events, technology detections | You want hiring, news, and tech changes from one feed |
 | LinkedIn Jobs | Public job posts, checked by hand | A short account list and no budget |
 | [UserGems](https://www.usergems.com) | Job-change tracking for past customers and champions | Past users move often enough to run a reunion play |
-| [Clay](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/clay.md) | Enrichment workspace with job-change tracking, and an MCP server | The list is already enriched in Clay |
-| [RB2B](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/rb2b.md) | Website visitor identification at the person level, US only | You want to know which people viewed pricing or comparison pages |
+| [Clay](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/clay.md) | Enrichment workspace with job-change tracking, and an MCP server | The list is already enriched in Clay |
+| [RB2B](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/rb2b.md) | Website visitor identification at the person level, US only | You want to know which people viewed pricing or comparison pages |
 | [Warmly](https://www.warmly.ai), [Vector](https://www.vector.co) | Website visitor identification | The same need; compare coverage for your traffic |
 | [Trigify](https://www.trigify.io) | Tracking of who engages with chosen social posts and profiles | The play starts from engagement with you or a competitor |
 | [Common Room](https://www.commonroom.io) | Signal aggregation across community, social, and product data | Signals arrive from several places and need one account view |
 | [Crunchbase](https://www.crunchbase.com) | Company and funding database | Funding rounds and launches are the trigger |
-| [Exa](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/exa.md) | Search API that finds pages by meaning, with an MCP server | Finding news, announcements, and posts about target accounts |
-| Podcast transcripts | Indexed episodes with speaker-labelled transcripts, searchable by topic or person, for example through [Firecrawl](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/firecrawl.md)'s Alexandria library; show notes and episode pages by hand | Someone at a target account described the problem, or you need what a leader said they are working on |
+| [Exa](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/exa.md) | Search API that finds pages by meaning, with an MCP server | Finding news, announcements, and posts about target accounts |
+| Podcast transcripts | Indexed episodes with speaker-labelled transcripts, searchable by topic or person, for example through [Firecrawl](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/firecrawl.md)'s Alexandria library; show notes and episode pages by hand | Someone at a target account described the problem, or you need what a leader said they are working on |
 | X search | Public posts and announcements; Grok searches X directly through the xAI API | The signal is something a founder or team said in public |
 | Meta Ad Library, Google Ads Transparency Center, LinkedIn Ad Library | Public archives of running ads | Checking whether and how a company advertises, by hand in the browser |
 | [BuiltWith](https://builtwith.com), [Wappalyzer](https://www.wappalyzer.com) | Lookups of the technology a website runs | A tool next to yours being added or dropped is the trigger |
 | Subprocessor and DPA pages | A company's own published list of the vendors that process its customers' data | Confirming an account uses a named vendor, or catching one being added or dropped. Free, by search |
 | Your own analytics and billing events | Product usage, sent to the CRM by webhook | The signal is a signup, a limit hit, or a team invite |
 
-Setup guides for TheirStack, Clay, RB2B, and Exa are in the [tools registry](https://github.com/coreyhaines31/marketingskills/blob/main/tools/REGISTRY.md). For the others, use the vendor's own docs, and check what each one offers an agent before planning around it. A scheduled sweep of these sources is the signal-sweep loop in the marketing-loops skill.
+For the tools above, use each vendor's own docs, and check what each one offers an agent before planning around it. A scheduled sweep of these sources is the signal-sweep loop in the marketing-loops skill.
 
 ## Common mistakes
 

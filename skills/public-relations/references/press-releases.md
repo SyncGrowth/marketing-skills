@@ -99,7 +99,7 @@ Post every release on your own newsroom page first. Then add distribution based 
 | A dated public record, nothing more | Own newsroom page, optionally PRLog |
 | Search presence and syndicated copies for a launch, small budget | EIN Presswire, or another low-cost wire |
 | Earnings, M&A, or other material news at a public company | PR Newswire or Business Wire, with legal review |
-| An agent running the launch end to end with no human checkout | A pay-per-call wire API (see the registry's Press Release Distribution category), or a human buys a wire package and the agent writes the copy |
+| An agent running the launch end to end with no human checkout | A pay-per-call wire API (several exist; check pricing and terms), or a human buys a wire package and the agent writes the copy |
 | Actual articles written by reporters | None of the above alone. Pitch (see [journalist-pitching.md](journalist-pitching.md)) |
 
 ---

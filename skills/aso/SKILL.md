@@ -29,7 +29,7 @@ If `.agents/product-marketing.md` exists (or `.claude/product-marketing.md`, or 
 
 The public listing shows what a shopper sees. For the user's own Apple app, App Store Connect holds what the page doesn't: every review by rating and country, the rating breakdown, Apple's review summaries, week-over-week numbers, and the exact listing text per locale (including promotional text).
 
-If the app is the user's and the `asc` command is installed and signed in (see the [App Store Connect CLI guide](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/app-store-connect-cli.md)), read from it before asking the user to export anything:
+If the app is the user's and the `asc` command is installed and signed in (see the [App Store Connect CLI guide](https://github.com/coreyhaines31/marketingskills/blob/8fd2fcade2fd6629026e9dfe6d133b55b36968b9/tools/integrations/app-store-connect-cli.md)), read from it before asking the user to export anything:
 
 - Run every command with `--read-only`. An audit changes nothing.
 - Pull low-star reviews and the review summaries, and use them as evidence for the listing's weak points and for customer wording (see **customer-research**).

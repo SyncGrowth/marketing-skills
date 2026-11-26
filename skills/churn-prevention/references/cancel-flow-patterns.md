@@ -297,11 +297,11 @@ The most effective cancel flows use segmentation to show different offers to dif
 
 ## Compliance Notes
 
-### FTC Click-to-Cancel Rule (US)
-- Cancellation must be as easy as signup
-- Cannot require a phone call to cancel if signup was online
-- Cannot add excessive steps to discourage cancellation
-- Save offers are allowed but "continue cancelling" must be clear
+### US: ROSCA and state automatic-renewal laws
+- The FTC's 2024 click-to-cancel amendments were vacated by the Eighth Circuit on 2025-07-08, and no federal click-to-cancel rule is in force as of 2026-11
+- ROSCA (the Restore Online Shoppers' Confidence Act) and state automatic-renewal laws still apply, and some states require an online cancellation path; check the states you sell in, and get legal review
+- Best practice that also lowers legal risk: cancelling should be as easy as signing up, with no required phone call when signup was online and no excessive steps
+- Save offers are fine, but "continue cancelling" must be clear
 
 ### GDPR / Data Retention (EU)
 - Inform users about data retention period post-cancel

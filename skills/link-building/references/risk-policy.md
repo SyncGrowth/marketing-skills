@@ -67,6 +67,6 @@ Agencies that sell the work (content, digital PR, outreach on your behalf, and p
 - **Disavow:** Google recommends the disavow tool only when there's a manual action, or a large number of paid or spammy links you created that are likely to cause one. Don't disavow links just because a tool scores them as "toxic." A disavow of good links can hurt.
 - **Negative SEO worries:** random spammy links pointing at a site are common and usually ignored. Watch for a manual action instead of reacting to every one.
 
-## Disclosure Inside This Repo's Guidance
+## Disclosure in This Guidance
 
 When a recommendation involves paying a site, a creator, or a vendor, say so plainly and name the requirement (link attribute and audience disclosure). Recommend more than one option, and say when a vendor has a commercial relationship with the person recommending it.
